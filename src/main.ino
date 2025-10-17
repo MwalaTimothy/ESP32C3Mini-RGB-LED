@@ -1,6 +1,6 @@
 #include <ESP32C3MiniLED.h>
 
-#define RGB_LED_PIN 8
+#define RGB_LED_PIN 7
 
 ESP32C3MiniLED led(RGB_LED_PIN);
 

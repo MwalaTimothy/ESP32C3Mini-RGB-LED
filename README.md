@@ -1,8 +1,10 @@
-# MyRGBLibrary
+# ESP32C3Mini RGB LED Library
 
-Lightweight helper library for the ESP32-C3 Mini onboard RGB (NeoPixel).  
-Startup sequence on power/reset: Red → Blue → Orange → Violet.  
-Provides a short purple blink to indicate data transmission.
+[![Platform: ESP32-C3](https://img.shields.io/badge/Platform-ESP32--C3-blue)](https://www.espressif.com/en/products/socs/esp32-c3)
+[![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-green)](https://www.arduino.cc/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A lightweight Arduino library for controlling the onboard RGB LED (NeoPixel) on ESP32-C3 Mini development boards. Provides simple functions for visual feedback including startup sequence and data transmission indication.
 
 ## Quick API
 - ESP32C3MiniLED(uint8_t pin, uint8_t numPixels = 1, uint8_t brightness = 50)

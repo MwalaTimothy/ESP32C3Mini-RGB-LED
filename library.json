@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwalatimo/ESP32C3MiniLED.git"
+    "url": "https://github.com/MwalaTimothy/ESP32C3Mini-RGB-LED.git"
   },
   "frameworks": ["arduino"],
   "platforms": ["espressif32"],

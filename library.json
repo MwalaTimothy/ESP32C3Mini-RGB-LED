@@ -1,0 +1,23 @@
+{
+  "name": "ESP32C3MiniLED",
+  "version": "1.0.0",
+  "description": "Library for controlling the onboard RGB LED of ESP32-C3 Mini boards",
+  "keywords": "esp32c3, rgb, led, neopixel",
+  "authors": [
+    {
+      "name": "Timothy Mwala",
+      "email": "mwalatimo.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwalatimo/ESP32C3MiniLED.git"
+  },
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"],
+  "dependencies": {
+    "Adafruit NeoPixel": "^1.10.0"
+  }
+}

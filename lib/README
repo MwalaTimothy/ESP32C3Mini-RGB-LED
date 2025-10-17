@@ -1,0 +1,73 @@
+
+# Library Directory Structure
+
+This directory contains the ESP32C3MiniLED library in its proper Arduino library format.
+
+## Current Structure
+
+```text
+lib/
+└── ESP32C3MiniLED/              # Main library directory
+    ├── src/                     # Library source code
+    │   ├── ESP32C3MiniLED.cpp  # Implementation
+    │   └── ESP32C3MiniLED.h    # Header
+    ├── examples/                # Example sketches
+    │   ├── Basic/              
+    │   │   └── Basic.ino       # Basic usage example
+    │   └── Advanced/
+    │       └── Advanced.ino     # Advanced features example
+    ├── library.properties       # Arduino library metadata
+    └── README                   # Library documentation
+```
+
+## Library Information
+
+- **Name**: ESP32C3MiniLED
+- **Purpose**: Control the onboard RGB LED of ESP32-C3 Mini boards
+- **Dependencies**: Adafruit NeoPixel
+- **Version**: 1.0.0
+
+## Development
+
+The library is developed as part of this PlatformIO project where:
+
+- `/lib/ESP32C3MiniLED/` contains the actual library that can be distributed
+- `/src/main.ino` in the root serves as a development/test sketch
+
+## Usage
+
+### As Local Library (Current Setup)
+
+The library is already properly structured and will be automatically detected by PlatformIO.
+
+### For Distribution
+
+The entire `ESP32C3MiniLED` folder can be:
+
+1. Copied to Arduino libraries folder
+2. Shared as a standalone library
+3. Submitted to Arduino Library Manager
+
+## Notes
+
+- Keep library source files in `/lib/ESP32C3MiniLED/src/`
+- Add new examples in `/lib/ESP32C3MiniLED/examples/`
+- Update library.properties when making releases
+
+Example contents of `src/main.c` using Foo and Bar:
+```
+#include <Foo.h>
+#include <Bar.h>
+
+int main (void)
+{
+  ...
+}
+
+```
+
+The PlatformIO Library Dependency Finder will find automatically dependent
+libraries by scanning project source files.
+
+More information about PlatformIO Library Dependency Finder
+- https://docs.platformio.org/page/librarymanager/ldf.html

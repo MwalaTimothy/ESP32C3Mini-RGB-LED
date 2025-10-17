@@ -1,0 +1,4 @@
+ESP32C3MiniLED    KEYWORD1
+indicateDataTransmission    KEYWORD2
+indicateStartupSequence     KEYWORD2
+setColor                    KEYWORD2
